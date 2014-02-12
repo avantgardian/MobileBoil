@@ -1,12 +1,12 @@
 MobileBoil
 ===================
 
-Skeleton-inspired boilerplate
+In short, `MobileBoil` is a Skeleton-inspired grid-based javascript-less HTML5/CSS3 Boilerplate with a few notable differences:
 
-What i want to achieve here:
+- Mobile-first approach,
+- No offset containers (they rendered unnecessary throughout many many of my projects)
+- No nested column classes (rendered unnecessary throughout many many of my projects)
+- Revised media-queries for a more modern device-base
+- New 1440px breakpoint in the same 16-base grid
 
-* Rethink Skeleton Boilerplate,
-* Add a new breakpoint of 1440px,
-* Develop a mobile-first approach,
-* Use no server compiling and no Javascript,
-* Drop IE6/7/8 and never look back.
+MobileBoil is as clean (if not even cleaner) and straightforward as Skeleton Boilerplate, same container-column structure is preserved, very easy to pick up and start coding in, and mobile-first simply makes more sense these days.
