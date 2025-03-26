@@ -9,8 +9,8 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title>MobileBoil</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="A modern mobile-first CSS boilerplate">
+	<meta name="author" content="Andrei S">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -28,7 +28,7 @@
 
 	<!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -44,38 +44,72 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="container">
-		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">MobileBoil</h1>
-			<h5>Version NONE</h5>
-			<hr />
-		</div>
-		<div class="one-third column">
-			<h3>About MobileBoil?</h3>
-			<p>MobileBoile starts where Skeleton Boilerplate left it, it adds a new breakpoint of 1440px for a wider and greater visual experience, and inverses the media-query logic into a mobile-first approach.</p>
-		</div>
-		<div class="one-third column">
-			<h3>Three Core Principles</h3>
-			<p>Skeleton is built on three core principles:</p>
-			<ul class="square">
-				<li><strong>A Responsive Grid Up To Large Desktops</strong>: Elegant scaling from a mobile to tablets to browsers.</li>
-				<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
-				<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten. Courtesy of Skeleton.</li>
-			</ul>
-		</div>
-		<div class="one-third column">
-			<h3>Docs &amp; Support</h3>
-			<p>MobileBoil is also open-source and has a <a href="https://github.com/avantgardian/MobileBoil">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to leave comments and PRs</p>
-		</div>
+		<header class="site-header">
+			<h1 class="remove-bottom">MobileBoil</h1>
+			<h5>Version 2.0</h5>
+		</header>
 
-		<div class="two-thirds column">
-			<h3>Docs &amp; Support</h3>
-			<p>MobileBoil is also open-source and has a <a href="https://github.com/avantgardian/MobileBoil">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to leave comments and PRs</p>
-		</div>
-		<div class="one-third column">
-			<h3>Docs &amp; Support</h3>
-			<p>MobileBoil is also open-source and has a <a href="https://github.com/avantgardian/MobileBoil">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to leave comments and PRs</p>
-		</div>
+		<main class="page-content">
+			<!-- Modern Grid Example -->
+			<section class="grid gap-medium">
+				<div class="card">
+					<h3>About MobileBoil</h3>
+					<p>MobileBoil starts where Skeleton Boilerplate left off, adding a new breakpoint of 1440px for a wider and greater visual experience, and implementing a mobile-first approach.</p>
+				</div>
+				<div class="card">
+					<h3>Three Core Principles</h3>
+					<ul>
+						<li><strong>A Responsive Grid Up To Large Desktops</strong>: Elegant scaling from mobile to tablets to browsers.</li>
+						<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>
+						<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
+					</ul>
+				</div>
+				<div class="card">
+					<h3>Docs &amp; Support</h3>
+					<p>MobileBoil is open-source and has a <a href="https://github.com/avantgardian/MobileBoil">project on git</a>. Check it out if you want to report bugs or create a pull request.</p>
+				</div>
+			</section>
 
+			<!-- Legacy Grid Example -->
+			<section class="row">
+				<div class="column column-third">
+					<h3>Legacy Grid System</h3>
+					<p>This section uses the traditional float-based grid system for backward compatibility.</p>
+				</div>
+				<div class="column column-third">
+					<h3>Modern Features</h3>
+					<p>This boilerplate now includes CSS Grid, CSS Variables, and modern CSS features while maintaining compatibility.</p>
+				</div>
+				<div class="column column-third">
+					<h3>Responsive Design</h3>
+					<p>Built with a mobile-first approach and modern breakpoints for all device sizes.</p>
+				</div>
+			</section>
+
+			<!-- Form Example -->
+			<section class="form-example">
+				<h3>Modern Form Elements</h3>
+				<form>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" id="name" placeholder="Enter your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" placeholder="Enter your email">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" placeholder="Enter your message"></textarea>
+					</div>
+					<button type="submit" class="button">Send Message</button>
+				</form>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>MobileBoil is free to use under the MIT license.</p>
+		</footer>
 	</div><!-- container -->
 
 
